@@ -1,0 +1,35 @@
+.tasks__infos {
+  width: 300px;
+  padding: 10px 0 10px 0;
+  border-radius: 9px;
+}
+
+.tasks__infos__button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  padding: 5px;
+  border-radius: 999px;
+  margin-top: 3px;
+  border: none;
+  outline: none;
+  min-width: 180px;
+  border: 2px solid rgb(248, 179, 146);
+  background-color: rgb(22, 16, 50);
+  color: rgb(248, 179, 146);
+  transition: transform 100ms ease-in;
+}
+
+.tasks__infos__button:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+}
+
+.tasks__infos__info {
+  color: rgb(248, 179, 146);
+  font-size: 11px;
+}
+
+.scroll_up {
+  position: fixed;
+  bottom: 30px;
+}

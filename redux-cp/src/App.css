@@ -1,0 +1,37 @@
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.app__container {
+  width: 300px;
+  min-height: 500px;
+  overflow-y: scroll;
+  background-color: rgb(22, 16, 50);
+  padding: 40px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  box-shadow: 0px 0px 21px -1px rgba(0, 0, 0, 0.5);
+}
+
+.app__container::-webkit-scrollbar {
+  display: none;
+}
+
+.app__container__af {
+  width: 300px;
+  position: fixed;
+  top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.app__container__tasks {
+  margin-top: 40px;
+}
